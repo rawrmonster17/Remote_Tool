@@ -1,0 +1,12 @@
+*.pem
+# Ignore Python compiled files
+**/*.pyc
+
+# Ignore Docker volumes
+docker/postgres/
+
+# Ignore Python cache directories
+**/__pycache__/
+
+# Ignore Python virtual environments
+venv/
