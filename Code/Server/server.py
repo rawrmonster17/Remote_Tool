@@ -4,7 +4,7 @@ from cryptography import x509
 from cryptography.hazmat.backends import default_backend
 from OpenSSL import SSL
 import os
-import datetime
+from datetime import datetime, timezone
 
 
 app = FastAPI()
@@ -24,8 +24,8 @@ else:
     # Check if the certificate is within 3 months of expiring
     with open(cert_file, 'rt') as f:
         cert = x509.load_pem_x509_certificate(f.read().encode(), default_backend())
-    expiration_date = cert.not_valid_after
-    remaining_days = (expiration_date - datetime.datetime.utcnow()).days
+    expiration_date = cert.not_valid_after_utc
+    remaining_days = (expiration_date - datetime.utcnow().replace(tzinfo=timezone.utc)).days
     if remaining_days <= 90:
         # Create a new certificate
         os.system(f"openssl req -x509 -newkey rsa:4096 -nodes -out {cert_file} -keyout {key_file} -days 365 -subj '/CN={ip_address}'")
