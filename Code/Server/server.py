@@ -6,6 +6,7 @@ from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
 from cryptography import x509
 from cryptography.hazmat.backends import default_backend
 from datetime import datetime, timezone
+from OpenSSL import SSL
 
 BASE_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
@@ -97,7 +98,7 @@ ssl_context.use_privatekey_file(key_file)
 ssl_context.set_options(SSL.OP_NO_SSLv2)
 ssl_context.set_options(SSL.OP_NO_SSLv3)
 ssl_context.set_options(SSL.OP_NO_TLSv1)
-ssl_context.set_options(SSL.OP_NO_TLSv1_1
+ssl_context.set_options(SSL.OP_NO_TLSv1_1)
 
 @app.get("/")
 def read_root():
