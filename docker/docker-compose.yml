@@ -17,6 +17,7 @@ services:
       dockerfile: docker/server/Dockerfile
     volumes:
       - ../Code/Server:/app
+    restart: always
     ports:
       - 8000:8000
     depends_on:
