@@ -38,6 +38,43 @@ services:
     depends_on:
       - server
 
+  mongodb:
+    image: mongo:4.2
+    volumes:
+      - ./mongo_data:/data/db
+    networks:
+      - db_network
+  
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch-oss:7.10.2
+    volumes:
+      - ./es_data:/usr/share/elasticsearch/data
+    networks:
+      - db_network
+    environment:
+      - http.host=0.0.0.0
+      - transport.host=localhost
+      - network.host=0.0.0.0
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+
+  graylog:
+    image: graylog/graylog:4.1
+    volumes:
+      - ./graylog_journal:/usr/share/graylog/data/journal
+    environment:
+      - GRAYLOG_HTTP_EXTERNAL_URI=http://127.0.0.1:9000/
+      - GRAYLOG_MONGODB_URI=mongodb://mongodb:27017/graylog
+    depends_on:
+      - mongodb
+      - elasticsearch
+    ports:
+      - 9000:9000
+      - 12201:12201
+      - 1514:1514
+    networks:
+      - db_network
+      - server_network
+
 networks:
   server_network:
   db_network:

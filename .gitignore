@@ -10,3 +10,7 @@ docker/postgres/
 
 # Ignore Python virtual environments
 venv/
+
+docker/es_data/
+docker/graylog_journal/
+docker/mongo_data/
