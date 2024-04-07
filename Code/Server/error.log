@@ -1,0 +1,220 @@
+2024-04-07 00:57:09,660 INFO uvicorn.error Started server process [7]
+2024-04-07 00:57:09,661 INFO uvicorn.error Waiting for application startup.
+2024-04-07 00:57:09,661 INFO uvicorn.error Application startup complete.
+2024-04-07 00:57:09,662 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-07 00:57:09,998 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:57:10,814 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:57:11,701 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:57:12,981 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:57:15,048 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:57:18,756 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:57:25,630 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:57:39,013 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:58:05,129 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:58:56,834 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:59:35,715 INFO uvicorn.error Started server process [7]
+2024-04-07 00:59:35,716 INFO uvicorn.error Waiting for application startup.
+2024-04-07 00:59:35,716 INFO uvicorn.error Application startup complete.
+2024-04-07 00:59:35,717 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-07 00:59:36,025 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:59:36,792 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:59:37,708 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:59:38,984 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:59:41,035 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:59:44,733 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 00:59:51,564 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 01:00:04,818 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 01:00:30,893 ERROR server Failed to insert computer: relation "computers" does not exist
+LINE 2:                 INSERT INTO computers (name, update_status, ...
+                                    ^
+
+2024-04-07 01:13:33,464 INFO uvicorn.error Started server process [7]
+2024-04-07 01:13:33,465 INFO uvicorn.error Waiting for application startup.
+2024-04-07 01:13:33,465 INFO uvicorn.error Application startup complete.
+2024-04-07 01:13:33,466 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-07 01:13:57,787 ERROR server Failed to get computers: 'Database' object has no attribute 'get_computers'
+2024-04-07 01:13:59,394 ERROR server Failed to get computers: 'Database' object has no attribute 'get_computers'
+2024-04-07 01:14:00,087 ERROR server Failed to get computers: 'Database' object has no attribute 'get_computers'
+2024-04-07 01:14:00,802 ERROR server Failed to get computers: 'Database' object has no attribute 'get_computers'
+2024-04-07 01:14:01,384 ERROR server Failed to get computers: 'Database' object has no attribute 'get_computers'
+2024-04-07 01:14:58,755 INFO uvicorn.error Started server process [7]
+2024-04-07 01:14:58,756 INFO uvicorn.error Waiting for application startup.
+2024-04-07 01:14:58,757 INFO uvicorn.error Application startup complete.
+2024-04-07 01:14:58,757 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-07 01:32:34,680 ERROR server Failed to get computers: 'Database' object has no attribute 'get_computers'
+2024-04-07 01:42:14,975 ERROR server Failed to get computers: 'Database' object has no attribute 'get_computers'
+2024-04-07 01:43:13,505 INFO uvicorn.error Started server process [7]
+2024-04-07 01:43:13,506 INFO uvicorn.error Waiting for application startup.
+2024-04-07 01:43:13,506 INFO uvicorn.error Application startup complete.
+2024-04-07 01:43:13,507 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-07 02:29:19,077 INFO uvicorn.error Started server process [7]
+2024-04-07 02:29:19,078 INFO uvicorn.error Waiting for application startup.
+2024-04-07 02:29:19,078 INFO uvicorn.error Application startup complete.
+2024-04-07 02:29:19,079 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-07 02:29:19,438 ERROR server Failed to insert or update computer: column "update_count" of relation "computers" does not exist
+2024-04-07 02:29:20,438 ERROR server Failed to insert or update computer: column "update_count" of relation "computers" does not exist
+2024-04-07 02:29:21,441 ERROR server Failed to insert or update computer: column "update_count" of relation "computers" does not exist
+2024-04-07 02:29:22,800 ERROR server Failed to insert or update computer: column "update_count" of relation "computers" does not exist
+2024-04-07 02:29:25,139 ERROR server Failed to insert or update computer: column "update_count" of relation "computers" does not exist
+2024-04-07 02:29:28,836 ERROR server Failed to insert or update computer: column "update_count" of relation "computers" does not exist
+2024-04-07 02:29:35,743 ERROR server Failed to insert or update computer: column "update_count" of relation "computers" does not exist
+2024-04-07 02:29:48,997 ERROR server Failed to insert or update computer: column "update_count" of relation "computers" does not exist
+2024-04-07 02:30:15,109 ERROR server Failed to insert or update computer: column "update_count" of relation "computers" does not exist
+2024-04-07 02:31:06,813 ERROR server Failed to insert or update computer: column "update_count" of relation "computers" does not exist
+2024-04-07 02:31:38,074 INFO uvicorn.error Started server process [7]
+2024-04-07 02:31:38,074 INFO uvicorn.error Waiting for application startup.
+2024-04-07 02:31:38,075 INFO uvicorn.error Application startup complete.
+2024-04-07 02:31:38,075 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-07 02:32:38,253 ERROR server Failed to connect to database: 
+2024-04-07 02:32:38,253 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:32:38,254 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:32:46,113 ERROR server Failed to connect to database: 
+2024-04-07 02:32:46,113 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:32:46,113 ERROR server Failed to clear computers: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:33:27,576 ERROR server Failed to connect to database: 
+2024-04-07 02:33:27,576 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:33:27,576 ERROR server Failed to clear computers: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:33:38,987 ERROR server Failed to connect to database: 
+2024-04-07 02:33:38,987 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:33:38,987 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:34:39,751 ERROR server Failed to connect to database: 
+2024-04-07 02:34:39,751 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:34:39,752 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:34:39,769 ERROR server Failed to connect to database: 
+2024-04-07 02:34:39,770 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:34:39,771 ERROR server Failed to clear computers: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:35:05,762 ERROR server Failed to connect to database: 
+2024-04-07 02:35:05,762 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:35:05,762 ERROR server Failed to clear computers: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:35:40,521 ERROR server Failed to connect to database: 
+2024-04-07 02:35:40,522 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:35:40,522 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:36:41,273 ERROR server Failed to connect to database: 
+2024-04-07 02:36:41,274 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:36:41,274 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:37:42,015 ERROR server Failed to connect to database: 
+2024-04-07 02:37:42,016 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:37:42,016 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:38:42,691 ERROR server Failed to connect to database: 
+2024-04-07 02:38:42,691 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:38:42,692 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:39:43,428 ERROR server Failed to connect to database: 
+2024-04-07 02:39:43,428 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:39:43,428 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:40:44,265 ERROR server Failed to connect to database: 
+2024-04-07 02:40:44,266 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:40:44,266 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:41:45,049 ERROR server Failed to connect to database: 
+2024-04-07 02:41:45,049 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:41:45,050 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:42:45,713 ERROR server Failed to connect to database: 
+2024-04-07 02:42:45,713 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:42:45,713 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:43:46,388 ERROR server Failed to connect to database: 
+2024-04-07 02:43:46,389 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:43:46,389 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:44:47,083 ERROR server Failed to connect to database: 
+2024-04-07 02:44:47,084 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:44:47,084 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:45:47,799 ERROR server Failed to connect to database: 
+2024-04-07 02:45:47,799 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:45:47,800 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:46:48,540 ERROR server Failed to connect to database: 
+2024-04-07 02:46:48,540 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:46:48,540 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:47:49,267 ERROR server Failed to connect to database: 
+2024-04-07 02:47:49,268 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:47:49,268 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:48:49,932 ERROR server Failed to connect to database: 
+2024-04-07 02:48:49,932 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:48:49,932 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:49:50,713 ERROR server Failed to connect to database: 
+2024-04-07 02:49:50,713 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:49:50,713 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:50:51,371 ERROR server Failed to connect to database: 
+2024-04-07 02:50:51,372 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:50:51,372 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:51:52,009 ERROR server Failed to connect to database: 
+2024-04-07 02:51:52,009 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:51:52,009 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:52:52,729 ERROR server Failed to connect to database: 
+2024-04-07 02:52:52,729 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:52:52,729 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:53:53,448 ERROR server Failed to connect to database: 
+2024-04-07 02:53:53,448 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:53:53,449 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:54:54,221 ERROR server Failed to connect to database: 
+2024-04-07 02:54:54,221 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:54:54,221 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:55:54,955 ERROR server Failed to connect to database: 
+2024-04-07 02:55:54,955 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:55:54,955 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:56:24,719 ERROR server Failed to connect to database: 
+2024-04-07 02:56:24,719 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:56:24,719 ERROR server Failed to get computers: 'NoneType' object has no attribute 'fetch'
+2024-04-07 02:56:29,773 ERROR server Failed to connect to database: 
+2024-04-07 02:56:29,774 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:56:29,774 ERROR server Failed to get computers: 'NoneType' object has no attribute 'fetch'
+2024-04-07 02:56:55,693 ERROR server Failed to connect to database: 
+2024-04-07 02:56:55,693 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:56:55,693 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-07 02:57:29,777 ERROR server Failed to connect to database: 
+2024-04-07 02:57:29,778 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:57:29,778 ERROR server Failed to get computers: 'NoneType' object has no attribute 'fetch'
+2024-04-07 02:57:56,472 ERROR server Failed to connect to database: 
+2024-04-07 02:57:56,473 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-07 02:57:56,473 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
