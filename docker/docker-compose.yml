@@ -25,6 +25,18 @@ services:
     networks:
       - server_network
       - db_network
+  
+  agent:
+    build: 
+      context: ..
+      dockerfile: docker/client/Dockerfile
+    volumes:
+      - ../Code/client:/app
+    restart: always
+    networks:
+      - server_network
+    depends_on:
+      - server
 
 networks:
   server_network:
