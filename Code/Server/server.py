@@ -21,7 +21,7 @@ class Database:
                 database='postgres',
                 user='postgres',
                 password='mysecretpassword',
-                host='172.18.0.2'
+                host='db'
             )
         except Exception as e:
             logger.error(f"Failed to connect to database: {str(e)}")
@@ -32,6 +32,10 @@ class Database:
             await self.conn.close()
 
     async def create_table(self):
+        if self.conn is None:
+            logger.error("Cannot create table: No database connection")
+            return
+
         try:
             await self.conn.execute("""
                 CREATE TABLE IF NOT EXISTS computers (

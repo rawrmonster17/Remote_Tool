@@ -218,3 +218,376 @@ LINE 2:                 INSERT INTO computers (name, update_status, ...
 2024-04-07 02:57:56,472 ERROR server Failed to connect to database: 
 2024-04-07 02:57:56,473 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
 2024-04-07 02:57:56,473 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:20:44,636 INFO uvicorn.error Started server process [7]
+2024-04-11 17:20:44,636 INFO uvicorn.error Waiting for application startup.
+2024-04-11 17:20:44,636 INFO uvicorn.error Application startup complete.
+2024-04-11 17:20:44,636 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-11 17:21:44,655 ERROR server Failed to connect to database: 
+2024-04-11 17:21:44,655 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:21:44,655 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:22:45,272 ERROR server Failed to connect to database: 
+2024-04-11 17:22:45,273 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:22:45,273 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:23:45,929 ERROR server Failed to connect to database: 
+2024-04-11 17:23:45,929 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:23:45,929 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:24:46,513 ERROR server Failed to connect to database: 
+2024-04-11 17:24:46,513 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:24:46,513 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:25:47,143 ERROR server Failed to connect to database: 
+2024-04-11 17:25:47,143 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:25:47,143 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:26:47,741 ERROR server Failed to connect to database: 
+2024-04-11 17:26:47,741 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:26:47,741 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:27:48,353 ERROR server Failed to connect to database: 
+2024-04-11 17:27:48,354 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:27:48,354 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:28:48,958 ERROR server Failed to connect to database: 
+2024-04-11 17:28:48,959 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:28:48,959 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:29:49,559 ERROR server Failed to connect to database: 
+2024-04-11 17:29:49,560 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:29:49,560 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:30:50,191 ERROR server Failed to connect to database: 
+2024-04-11 17:30:50,191 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:30:50,191 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:31:50,792 ERROR server Failed to connect to database: 
+2024-04-11 17:31:50,792 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:31:50,792 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:32:51,447 ERROR server Failed to connect to database: 
+2024-04-11 17:32:51,447 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:32:51,447 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:33:52,036 ERROR server Failed to connect to database: 
+2024-04-11 17:33:52,036 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:33:52,036 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:34:52,661 ERROR server Failed to connect to database: 
+2024-04-11 17:34:52,661 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:34:52,661 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:35:53,234 ERROR server Failed to connect to database: 
+2024-04-11 17:35:53,234 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:35:53,234 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:36:53,882 ERROR server Failed to connect to database: 
+2024-04-11 17:36:53,882 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:36:53,882 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:37:54,518 ERROR server Failed to connect to database: 
+2024-04-11 17:37:54,518 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:37:54,518 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:38:55,176 ERROR server Failed to connect to database: 
+2024-04-11 17:38:55,176 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:38:55,176 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:39:55,821 ERROR server Failed to connect to database: 
+2024-04-11 17:39:55,821 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:39:55,821 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:40:56,420 ERROR server Failed to connect to database: 
+2024-04-11 17:40:56,420 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:40:56,420 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:41:57,012 ERROR server Failed to connect to database: 
+2024-04-11 17:41:57,012 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:41:57,012 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:42:57,662 ERROR server Failed to connect to database: 
+2024-04-11 17:42:57,662 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:42:57,662 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:43:58,247 ERROR server Failed to connect to database: 
+2024-04-11 17:43:58,247 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:43:58,248 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:44:58,841 ERROR server Failed to connect to database: 
+2024-04-11 17:44:58,841 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:44:58,841 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:45:59,405 ERROR server Failed to connect to database: 
+2024-04-11 17:45:59,405 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:45:59,405 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:47:00,074 ERROR server Failed to connect to database: 
+2024-04-11 17:47:00,074 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:47:00,074 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:48:00,692 ERROR server Failed to connect to database: 
+2024-04-11 17:48:00,692 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:48:00,692 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:49:01,313 ERROR server Failed to connect to database: 
+2024-04-11 17:49:01,313 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:49:01,313 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:50:01,921 ERROR server Failed to connect to database: 
+2024-04-11 17:50:01,921 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:50:01,921 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:51:02,564 ERROR server Failed to connect to database: 
+2024-04-11 17:51:02,564 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:51:02,565 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:52:03,222 ERROR server Failed to connect to database: 
+2024-04-11 17:52:03,222 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:52:03,222 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:53:03,859 ERROR server Failed to connect to database: 
+2024-04-11 17:53:03,860 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:53:03,860 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:54:04,438 ERROR server Failed to connect to database: 
+2024-04-11 17:54:04,438 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:54:04,438 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:55:05,037 ERROR server Failed to connect to database: 
+2024-04-11 17:55:05,037 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:55:05,037 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:56:05,636 ERROR server Failed to connect to database: 
+2024-04-11 17:56:05,636 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:56:05,636 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:57:06,297 ERROR server Failed to connect to database: 
+2024-04-11 17:57:06,297 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:57:06,297 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:58:06,929 ERROR server Failed to connect to database: 
+2024-04-11 17:58:06,930 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:58:06,930 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 17:59:07,517 ERROR server Failed to connect to database: 
+2024-04-11 17:59:07,517 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 17:59:07,517 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:00:08,085 ERROR server Failed to connect to database: 
+2024-04-11 18:00:08,085 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:00:08,085 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:01:08,663 ERROR server Failed to connect to database: 
+2024-04-11 18:01:08,663 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:01:08,663 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:02:09,231 ERROR server Failed to connect to database: 
+2024-04-11 18:02:09,231 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:02:09,231 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:03:09,809 ERROR server Failed to connect to database: 
+2024-04-11 18:03:09,810 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:03:09,810 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:04:10,402 ERROR server Failed to connect to database: 
+2024-04-11 18:04:10,402 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:04:10,402 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:05:11,003 ERROR server Failed to connect to database: 
+2024-04-11 18:05:11,003 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:05:11,003 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:06:11,626 ERROR server Failed to connect to database: 
+2024-04-11 18:06:11,626 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:06:11,626 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:07:12,340 ERROR server Failed to connect to database: 
+2024-04-11 18:07:12,341 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:07:12,341 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:08:13,039 ERROR server Failed to connect to database: 
+2024-04-11 18:08:13,039 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:08:13,039 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:09:13,606 ERROR server Failed to connect to database: 
+2024-04-11 18:09:13,606 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:09:13,606 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:10:14,229 ERROR server Failed to connect to database: 
+2024-04-11 18:10:14,229 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:10:14,229 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:11:14,831 ERROR server Failed to connect to database: 
+2024-04-11 18:11:14,831 ERROR server Failed to create table: 'NoneType' object has no attribute 'execute'
+2024-04-11 18:11:14,831 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:11:40,707 INFO uvicorn.error Started server process [7]
+2024-04-11 18:11:40,708 INFO uvicorn.error Waiting for application startup.
+2024-04-11 18:11:40,708 INFO uvicorn.error Application startup complete.
+2024-04-11 18:11:40,708 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-11 18:12:41,566 ERROR server Failed to connect to database: 
+2024-04-11 18:12:41,566 ERROR server Cannot create table: No database connection
+2024-04-11 18:12:41,566 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:13:42,149 ERROR server Failed to connect to database: 
+2024-04-11 18:13:42,149 ERROR server Cannot create table: No database connection
+2024-04-11 18:13:42,149 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:14:42,736 ERROR server Failed to connect to database: 
+2024-04-11 18:14:42,737 ERROR server Cannot create table: No database connection
+2024-04-11 18:14:42,737 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:15:43,310 ERROR server Failed to connect to database: 
+2024-04-11 18:15:43,310 ERROR server Cannot create table: No database connection
+2024-04-11 18:15:43,310 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:16:43,941 ERROR server Failed to connect to database: 
+2024-04-11 18:16:43,941 ERROR server Cannot create table: No database connection
+2024-04-11 18:16:43,941 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:17:44,494 ERROR server Failed to connect to database: 
+2024-04-11 18:17:44,495 ERROR server Cannot create table: No database connection
+2024-04-11 18:17:44,495 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:18:45,068 ERROR server Failed to connect to database: 
+2024-04-11 18:18:45,068 ERROR server Cannot create table: No database connection
+2024-04-11 18:18:45,068 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:19:45,641 ERROR server Failed to connect to database: 
+2024-04-11 18:19:45,641 ERROR server Cannot create table: No database connection
+2024-04-11 18:19:45,641 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:20:46,216 ERROR server Failed to connect to database: 
+2024-04-11 18:20:46,216 ERROR server Cannot create table: No database connection
+2024-04-11 18:20:46,216 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:21:46,803 ERROR server Failed to connect to database: 
+2024-04-11 18:21:46,803 ERROR server Cannot create table: No database connection
+2024-04-11 18:21:46,803 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:22:47,376 ERROR server Failed to connect to database: 
+2024-04-11 18:22:47,376 ERROR server Cannot create table: No database connection
+2024-04-11 18:22:47,376 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:23:47,980 ERROR server Failed to connect to database: 
+2024-04-11 18:23:47,980 ERROR server Cannot create table: No database connection
+2024-04-11 18:23:47,980 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:24:48,576 ERROR server Failed to connect to database: 
+2024-04-11 18:24:48,576 ERROR server Cannot create table: No database connection
+2024-04-11 18:24:48,576 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:25:49,195 ERROR server Failed to connect to database: 
+2024-04-11 18:25:49,195 ERROR server Cannot create table: No database connection
+2024-04-11 18:25:49,195 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:26:49,796 ERROR server Failed to connect to database: 
+2024-04-11 18:26:49,796 ERROR server Cannot create table: No database connection
+2024-04-11 18:26:49,796 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:27:50,438 ERROR server Failed to connect to database: 
+2024-04-11 18:27:50,439 ERROR server Cannot create table: No database connection
+2024-04-11 18:27:50,439 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:28:51,000 ERROR server Failed to connect to database: 
+2024-04-11 18:28:51,000 ERROR server Cannot create table: No database connection
+2024-04-11 18:28:51,000 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:29:51,607 ERROR server Failed to connect to database: 
+2024-04-11 18:29:51,607 ERROR server Cannot create table: No database connection
+2024-04-11 18:29:51,607 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:30:52,186 ERROR server Failed to connect to database: 
+2024-04-11 18:30:52,186 ERROR server Cannot create table: No database connection
+2024-04-11 18:30:52,186 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:31:52,745 ERROR server Failed to connect to database: 
+2024-04-11 18:31:52,746 ERROR server Cannot create table: No database connection
+2024-04-11 18:31:52,746 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:32:53,340 ERROR server Failed to connect to database: 
+2024-04-11 18:32:53,341 ERROR server Cannot create table: No database connection
+2024-04-11 18:32:53,341 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:33:24,058 INFO uvicorn.error Started server process [7]
+2024-04-11 18:33:24,058 INFO uvicorn.error Waiting for application startup.
+2024-04-11 18:33:24,059 INFO uvicorn.error Application startup complete.
+2024-04-11 18:33:24,059 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-11 18:34:25,203 ERROR server Failed to connect to database: 
+2024-04-11 18:34:25,203 ERROR server Cannot create table: No database connection
+2024-04-11 18:34:25,203 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:35:25,908 ERROR server Failed to connect to database: 
+2024-04-11 18:35:25,908 ERROR server Cannot create table: No database connection
+2024-04-11 18:35:25,908 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:36:09,306 INFO uvicorn.error Started server process [7]
+2024-04-11 18:36:09,306 INFO uvicorn.error Waiting for application startup.
+2024-04-11 18:36:09,307 INFO uvicorn.error Application startup complete.
+2024-04-11 18:36:09,307 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-11 18:37:09,711 ERROR server Failed to connect to database: 
+2024-04-11 18:37:09,711 ERROR server Cannot create table: No database connection
+2024-04-11 18:37:09,712 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:38:10,366 ERROR server Failed to connect to database: 
+2024-04-11 18:38:10,367 ERROR server Cannot create table: No database connection
+2024-04-11 18:38:10,367 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:38:44,996 INFO uvicorn.error Started server process [7]
+2024-04-11 18:38:44,996 INFO uvicorn.error Waiting for application startup.
+2024-04-11 18:38:44,996 INFO uvicorn.error Application startup complete.
+2024-04-11 18:38:44,996 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-11 18:38:45,115 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:38:45,115 ERROR server Cannot create table: No database connection
+2024-04-11 18:38:45,115 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:38:46,314 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:38:46,314 ERROR server Cannot create table: No database connection
+2024-04-11 18:38:46,314 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:38:48,352 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:38:48,353 ERROR server Cannot create table: No database connection
+2024-04-11 18:38:48,353 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:38:51,960 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:38:51,960 ERROR server Cannot create table: No database connection
+2024-04-11 18:38:51,960 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:38:58,737 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:38:58,737 ERROR server Cannot create table: No database connection
+2024-04-11 18:38:58,737 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:39:11,950 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:39:11,950 ERROR server Cannot create table: No database connection
+2024-04-11 18:39:11,950 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:39:37,911 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:39:37,912 ERROR server Cannot create table: No database connection
+2024-04-11 18:39:37,912 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:40:29,501 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:40:29,501 ERROR server Cannot create table: No database connection
+2024-04-11 18:40:29,501 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:41:29,928 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:41:29,928 ERROR server Cannot create table: No database connection
+2024-04-11 18:41:29,928 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:42:30,348 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:42:30,348 ERROR server Cannot create table: No database connection
+2024-04-11 18:42:30,348 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:43:30,739 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:43:30,739 ERROR server Cannot create table: No database connection
+2024-04-11 18:43:30,739 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:44:31,149 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:44:31,149 ERROR server Cannot create table: No database connection
+2024-04-11 18:44:31,149 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:45:31,558 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:45:31,558 ERROR server Cannot create table: No database connection
+2024-04-11 18:45:31,558 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:46:31,991 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:46:31,991 ERROR server Cannot create table: No database connection
+2024-04-11 18:46:31,991 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:47:32,413 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:47:32,413 ERROR server Cannot create table: No database connection
+2024-04-11 18:47:32,413 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:48:32,829 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:48:32,829 ERROR server Cannot create table: No database connection
+2024-04-11 18:48:32,829 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:49:33,229 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:49:33,230 ERROR server Cannot create table: No database connection
+2024-04-11 18:49:33,230 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:50:33,624 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:50:33,624 ERROR server Cannot create table: No database connection
+2024-04-11 18:50:33,624 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:51:34,023 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:51:34,024 ERROR server Cannot create table: No database connection
+2024-04-11 18:51:34,024 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:52:34,449 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:52:34,449 ERROR server Cannot create table: No database connection
+2024-04-11 18:52:34,449 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:53:34,838 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:53:34,838 ERROR server Cannot create table: No database connection
+2024-04-11 18:53:34,838 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:54:35,275 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:54:35,276 ERROR server Cannot create table: No database connection
+2024-04-11 18:54:35,276 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:55:35,701 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:55:35,701 ERROR server Cannot create table: No database connection
+2024-04-11 18:55:35,701 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:56:36,101 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:56:36,102 ERROR server Cannot create table: No database connection
+2024-04-11 18:56:36,102 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:57:36,515 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:57:36,515 ERROR server Cannot create table: No database connection
+2024-04-11 18:57:36,515 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:58:36,891 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:58:36,891 ERROR server Cannot create table: No database connection
+2024-04-11 18:58:36,891 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 18:59:37,303 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 18:59:37,303 ERROR server Cannot create table: No database connection
+2024-04-11 18:59:37,303 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:00:37,728 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:00:37,728 ERROR server Cannot create table: No database connection
+2024-04-11 19:00:37,728 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:01:38,145 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:01:38,145 ERROR server Cannot create table: No database connection
+2024-04-11 19:01:38,145 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:02:38,576 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:02:38,576 ERROR server Cannot create table: No database connection
+2024-04-11 19:02:38,576 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:03:38,976 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:03:38,976 ERROR server Cannot create table: No database connection
+2024-04-11 19:03:38,976 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:04:39,390 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:04:39,391 ERROR server Cannot create table: No database connection
+2024-04-11 19:04:39,391 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:05:39,785 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:05:39,785 ERROR server Cannot create table: No database connection
+2024-04-11 19:05:39,785 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:06:40,174 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:06:40,174 ERROR server Cannot create table: No database connection
+2024-04-11 19:06:40,174 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:07:40,551 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:07:40,551 ERROR server Cannot create table: No database connection
+2024-04-11 19:07:40,551 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:08:40,971 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:08:40,971 ERROR server Cannot create table: No database connection
+2024-04-11 19:08:40,971 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:09:41,374 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:09:41,374 ERROR server Cannot create table: No database connection
+2024-04-11 19:09:41,374 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:10:41,741 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:10:41,741 ERROR server Cannot create table: No database connection
+2024-04-11 19:10:41,741 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:11:42,121 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:11:42,121 ERROR server Cannot create table: No database connection
+2024-04-11 19:11:42,121 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:12:42,553 ERROR server Failed to connect to database: could not open file "global/pg_filenode.map": Permission denied
+2024-04-11 19:12:42,553 ERROR server Cannot create table: No database connection
+2024-04-11 19:12:42,553 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-11 19:13:41,515 INFO uvicorn.error Started server process [7]
+2024-04-11 19:13:41,515 INFO uvicorn.error Waiting for application startup.
+2024-04-11 19:13:41,515 INFO uvicorn.error Application startup complete.
+2024-04-11 19:13:41,515 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-12 00:23:34,092 INFO uvicorn.error Started server process [7]
+2024-04-12 00:23:34,093 INFO uvicorn.error Waiting for application startup.
+2024-04-12 00:23:34,093 INFO uvicorn.error Application startup complete.
+2024-04-12 00:23:34,093 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
