@@ -1,5 +1,5 @@
 # Use the Alpine 3.19.1 image
-FROM alpine:3.19.1
+FROM alpine:3.19
 # Set the working directory
 WORKDIR /app
 # Update packages and install python3, pip, libpq, libpq-dev, gcc, musl-dev and python3-dev
