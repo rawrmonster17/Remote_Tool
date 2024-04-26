@@ -1,5 +1,4 @@
 import os
-import psycopg2
 import logging
 import asyncpg
 from fastapi import FastAPI
@@ -7,9 +6,13 @@ from fastapi import FastAPI
 
 BASE_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
-logging.basicConfig(filename=os.path.join(BASE_FOLDER, "error.log"), level=logging.ERROR, 
-                    format='%(asctime)s %(levelname)s %(name)s %(message)s')
+logging.basicConfig(
+    filename=os.path.join(BASE_FOLDER, "error.log"),
+    level=logging.ERROR,
+    format='%(asctime)s %(levelname)s %(name)s %(message)s'
+)
 logger = logging.getLogger(__name__)
+
 
 class Database:
     def __init__(self):
@@ -53,23 +56,35 @@ class Database:
     async def insert_computer(self, name, update_status, reboot_required):
         try:
             # Check if the computer already exists
-            computer = await self.conn.fetchrow('SELECT * FROM computers WHERE name = $1', name)
+            computer = await self.conn.fetchrow(
+                'SELECT * FROM computers WHERE name = $1', name
+            )
             if computer is None:
                 # If the computer doesn't exist, insert a new record
-                await self.conn.execute("""
-                    INSERT INTO computers (name, update_status, reboot_required, update_count)
+                await self.conn.execute(
+                    """
+                    INSERT INTO computers 
+                    (name, update_status, reboot_required, update_count)
                     VALUES ($1, $2, $3, 1)
-                """, name, update_status, reboot_required)
+                    """, 
+                    name, update_status, reboot_required
+                )
             else:
-                # If the computer exists, update the record and increment the update count
-                await self.conn.execute("""
+                # If the computer exists, update the record and increment 
+                # the update count
+                await self.conn.execute(
+                    """
                     UPDATE computers
-                    SET update_status = $2, reboot_required = $3, update_count = update_count + 1
+                    SET update_status = $2, reboot_required = $3, 
+                    update_count = update_count + 1
                     WHERE name = $1
-                """, name, update_status, reboot_required)
+                    """,
+                    name, update_status, reboot_required
+                )
         except Exception as e:
-            logger.error(f"Failed to insert or update computer: {str(e)}")
-    
+            error_message = f"Failed to insert or update computer: {str(e)}"
+            logger.error(error_message)
+
     async def get_computers(self):
         try:
             result = await self.conn.fetch('SELECT * FROM computers')
@@ -78,12 +93,14 @@ class Database:
             logger.error(f"Failed to get computers: {str(e)}")
             return None
 
+
 app = FastAPI()
 
 
 @app.get("/")
 def read_root():
     return {"Hello, tresspassser"}
+
 
 @app.get("/get-computers")
 async def get_computers():
@@ -98,6 +115,7 @@ async def get_computers():
         logger.error(f"Failed to get computers: {str(e)}")
         return {"error": "Failed to get computers"}
 
+
 @app.post("/add-computer")
 async def add_computer(name: str, update_status: bool, reboot_required: bool):
     try:
@@ -110,6 +128,7 @@ async def add_computer(name: str, update_status: bool, reboot_required: bool):
     except Exception as e:
         logger.error(str(e))
         return {"error": "An error occurred while adding the computer"}
+
 
 @app.get("/clear-computers")
 async def clear_computers():
