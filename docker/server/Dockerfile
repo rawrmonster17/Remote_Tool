@@ -12,5 +12,6 @@ RUN pip install --no-cache-dir --break-system-packages -r /app/requirements.txt
 RUN apk del py3-pip libpq-dev gcc musl-dev python3-dev
 # Copy the server script into the Docker image
 COPY Code/Server/server.py /app/server.py
+COPY Code/Server/my_database.py /app/my_database.py
 # Run the server script when the container starts
 CMD ["python3", "/app/server.py"]
