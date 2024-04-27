@@ -591,3 +591,98 @@ LINE 2:                 INSERT INTO computers (name, update_status, ...
 2024-04-12 00:23:34,093 INFO uvicorn.error Waiting for application startup.
 2024-04-12 00:23:34,093 INFO uvicorn.error Application startup complete.
 2024-04-12 00:23:34,093 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-27 23:24:00,002 INFO uvicorn.error Started server process [7]
+2024-04-27 23:24:00,003 INFO uvicorn.error Waiting for application startup.
+2024-04-27 23:24:00,003 INFO uvicorn.error Application startup complete.
+2024-04-27 23:24:00,004 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-27 23:24:04,025 ERROR server Failed to connect to database: [Errno 113] Connect call failed ('172.18.0.3', 5432)
+2024-04-27 23:24:04,025 ERROR server Cannot create table: No database connection
+2024-04-27 23:24:04,026 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:24:10,654 ERROR server Failed to connect to database: [Errno 113] Connect call failed ('172.18.0.3', 5432)
+2024-04-27 23:24:10,655 ERROR server Cannot create table: No database connection
+2024-04-27 23:24:10,655 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:24:17,135 ERROR server Failed to connect to database: [Errno 113] Connect call failed ('172.18.0.3', 5432)
+2024-04-27 23:24:17,135 ERROR server Cannot create table: No database connection
+2024-04-27 23:24:17,136 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:24:23,469 ERROR server Failed to connect to database: [Errno -2] Name does not resolve
+2024-04-27 23:24:23,469 ERROR server Cannot create table: No database connection
+2024-04-27 23:24:23,469 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:24:29,242 ERROR server Failed to connect to database: [Errno -2] Name does not resolve
+2024-04-27 23:24:29,242 ERROR server Cannot create table: No database connection
+2024-04-27 23:24:29,242 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:24:37,824 ERROR server Failed to connect to database: [Errno -3] Try again
+2024-04-27 23:24:37,825 ERROR server Cannot create table: No database connection
+2024-04-27 23:24:37,825 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:24:45,462 ERROR server Failed to connect to database: [Errno -2] Name does not resolve
+2024-04-27 23:24:45,462 ERROR server Cannot create table: No database connection
+2024-04-27 23:24:45,462 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:25:51,414 ERROR server Failed to connect to database: [Errno -2] Name does not resolve
+2024-04-27 23:25:51,414 ERROR server Cannot create table: No database connection
+2024-04-27 23:25:51,414 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:26:21,136 ERROR server Failed to connect to database: [Errno -2] Name does not resolve
+2024-04-27 23:26:21,136 ERROR server Cannot create table: No database connection
+2024-04-27 23:26:21,137 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:27:16,471 ERROR server Failed to connect to database: [Errno -2] Name does not resolve
+2024-04-27 23:27:16,471 ERROR server Cannot create table: No database connection
+2024-04-27 23:27:16,471 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:28:20,593 ERROR server Failed to connect to database: [Errno -2] Name does not resolve
+2024-04-27 23:28:20,593 ERROR server Cannot create table: No database connection
+2024-04-27 23:28:20,593 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:29:24,763 ERROR server Failed to connect to database: [Errno -2] Name does not resolve
+2024-04-27 23:29:24,764 ERROR server Cannot create table: No database connection
+2024-04-27 23:29:24,764 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:30:28,952 ERROR server Failed to connect to database: [Errno -2] Name does not resolve
+2024-04-27 23:30:28,952 ERROR server Cannot create table: No database connection
+2024-04-27 23:30:28,952 ERROR server Failed to insert or update computer: 'NoneType' object has no attribute 'fetchrow'
+2024-04-27 23:31:27,636 INFO uvicorn.error Started server process [7]
+2024-04-27 23:31:27,637 INFO uvicorn.error Waiting for application startup.
+2024-04-27 23:31:27,637 INFO uvicorn.error Application startup complete.
+2024-04-27 23:31:27,638 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-27 23:36:35,374 INFO uvicorn.error Started server process [7]
+2024-04-27 23:36:35,375 INFO uvicorn.error Waiting for application startup.
+2024-04-27 23:36:35,375 INFO uvicorn.error Application startup complete.
+2024-04-27 23:36:35,376 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-04-27 23:36:35,546 ERROR server 'module' object is not callable
+2024-04-27 23:36:36,407 ERROR server 'module' object is not callable
+2024-04-27 23:36:37,218 ERROR server 'module' object is not callable
+2024-04-27 23:36:38,376 ERROR server 'module' object is not callable
+2024-04-27 23:36:40,320 ERROR server 'module' object is not callable
+2024-04-27 23:36:42,135 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:43,889 ERROR server 'module' object is not callable
+2024-04-27 23:36:43,986 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:44,769 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:45,537 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:46,102 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:46,646 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:47,278 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:48,622 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:49,142 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:50,676 ERROR server 'module' object is not callable
+2024-04-27 23:36:51,501 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:53,441 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:54,014 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:54,393 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:36:54,639 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:37:03,843 ERROR server 'module' object is not callable
+2024-04-27 23:37:10,207 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:37:10,935 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:37:11,743 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:37:20,887 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:37:29,835 ERROR server 'module' object is not callable
+2024-04-27 23:37:43,495 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:37:43,983 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:37:44,201 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:37:44,383 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:38:21,403 ERROR server 'module' object is not callable
+2024-04-27 23:38:50,942 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:38:51,909 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:38:52,221 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:38:52,429 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:38:52,629 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:38:52,829 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:39:21,777 ERROR server 'module' object is not callable
+2024-04-27 23:40:22,144 ERROR server 'module' object is not callable
+2024-04-27 23:40:26,541 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:40:27,004 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:40:27,196 ERROR server Failed to get computers: 'module' object is not callable
+2024-04-27 23:41:22,516 ERROR server 'module' object is not callable

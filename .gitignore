@@ -14,3 +14,6 @@ venv/
 docker/es_data/
 docker/graylog_journal/
 docker/mongo_data/
+
+Code/Server/error.log
+Code/Server/database.log
