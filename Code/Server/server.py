@@ -1,5 +1,6 @@
 import os
 import logging
+import time
 from my_database import Database
 from fastapi import FastAPI
 
@@ -14,6 +15,23 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 app = FastAPI()
+db = Database()
+
+
+@app.on_event("startup")
+async def startup():
+    try:
+        await db.connect()
+        await db.create_table()
+    except Exception as e:
+        logger.error(f"Failed to connect to database: {str(e)}")
+        time.sleep(3)
+        startup()
+
+
+@app.on_event("shutdown")
+async def shutdown():
+    await db.close()
 
 
 @app.get("/")
@@ -24,11 +42,7 @@ def read_root():
 @app.get("/get-computers")
 async def get_computers():
     try:
-        db = Database()
-        await db.connect()
-        await db.create_table()  # Create the table if it doesn't exist
         computers = await db.get_computers()
-        await db.close()
         return computers
     except Exception as e:
         logger.error(f"Failed to get computers: {str(e)}")
@@ -38,11 +52,7 @@ async def get_computers():
 @app.post("/add-computer")
 async def add_computer(name: str, update_status: bool, reboot_required: bool):
     try:
-        db = Database()
-        await db.connect()
-        await db.create_table()  # Create the table if it doesn't exist
         await db.insert_computer(name, update_status, reboot_required)
-        await db.close()
         return {"message": "Computer added successfully"}
     except Exception as e:
         logger.error(str(e))
@@ -51,12 +61,10 @@ async def add_computer(name: str, update_status: bool, reboot_required: bool):
 
 @app.get("/clear-computers")
 async def clear_computers():
+    # This is a dangerous operation, so we should add some
+    # kind of authentication
     try:
-        db = Database()
-        await db.connect()
-        await db.create_table()  # Create the table if it doesn't exist
         await db.conn.execute("DELETE FROM computers")
-        await db.close()
         return {"message": "Computers cleared successfully"}
     except Exception as e:
         logger.error(f"Failed to clear computers: {str(e)}")

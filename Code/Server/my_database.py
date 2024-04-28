@@ -15,11 +15,11 @@ logger = logging.getLogger(__name__)
 
 class Database:
     def __init__(self):
-        self.conn = None
+        self.pool = None
 
     async def connect(self):
         try:
-            self.conn = await asyncpg.connect(
+            self.pool = await asyncpg.create_pool(
                 database='postgres',
                 user='postgres',
                 password='mysecretpassword',
@@ -27,19 +27,19 @@ class Database:
             )
         except Exception as e:
             logger.error(f"Failed to connect to database: {str(e)}")
-            self.conn = None
+            self.pool = None
 
     async def close(self):
-        if self.conn is not None:
-            await self.conn.close()
+        if self.pool is not None:
+            await self.pool.close()
 
     async def create_table(self):
-        if self.conn is None:
+        if self.pool is None:
             logger.error("Cannot create table: No database connection")
             return
 
         try:
-            await self.conn.execute("""
+            await self.pool.execute("""
                 CREATE TABLE IF NOT EXISTS computers (
                     id SERIAL PRIMARY KEY,
                     name VARCHAR(255),
@@ -55,12 +55,12 @@ class Database:
     async def insert_computer(self, name, update_status, reboot_required):
         try:
             # Check if the computer already exists
-            computer = await self.conn.fetchrow(
+            computer = await self.pool.fetchrow(
                 'SELECT * FROM computers WHERE name = $1', name
             )
             if computer is None:
                 # If the computer doesn't exist, insert a new record
-                await self.conn.execute(
+                await self.pool.execute(
                     """
                     INSERT INTO computers
                     (name, update_status, reboot_required, update_count)
@@ -71,7 +71,7 @@ class Database:
             else:
                 # If the computer exists, update the record and increment
                 # the update count
-                await self.conn.execute(
+                await self.pool.execute(
                     """
                     UPDATE computers
                     SET update_status = $2, reboot_required = $3,
@@ -86,7 +86,7 @@ class Database:
 
     async def get_computers(self):
         try:
-            result = await self.conn.fetch('SELECT * FROM computers')
+            result = await self.pool.fetch('SELECT * FROM computers')
             return result
         except Exception as e:
             logger.error(f"Failed to get computers: {str(e)}")
