@@ -3,6 +3,9 @@ FROM alpine:3.19
 # Set the working directory
 WORKDIR /app
 # Update packages and install python3, pip, libpq, libpq-dev, gcc, musl-dev and python3-dev
+RUN apk add --no-cache tzdata
+ENV TZ=America/Chicago
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apk update && \
     apk add --no-cache python3 py3-pip libpq libpq-dev gcc musl-dev python3-dev
 # Install the Python dependencies
