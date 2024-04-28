@@ -1,6 +1,7 @@
 import logging
 import asyncpg
 import os
+import asyncio
 
 
 BASE_FOLDER = os.path.dirname(os.path.abspath(__file__))
@@ -18,16 +19,18 @@ class Database:
         self.pool = None
 
     async def connect(self):
-        try:
-            self.pool = await asyncpg.create_pool(
-                database='postgres',
-                user='postgres',
-                password='mysecretpassword',
-                host='db'
-            )
-        except Exception as e:
-            logger.error(f"Failed to connect to database: {str(e)}")
-            self.pool = None
+        while self.pool is None:
+            try:
+                self.pool = await asyncpg.create_pool(
+                    database='postgres',
+                    user='postgres',
+                    password='mysecretpassword',
+                    host='db'
+                )
+            except Exception as e:
+                logger.error(f"Failed to connect to database: {str(e)}")
+                self.pool = None
+                await asyncio.sleep(5)
 
     async def close(self):
         if self.pool is not None:
@@ -37,7 +40,6 @@ class Database:
         if self.pool is None:
             logger.error("Cannot create table: No database connection")
             return
-
         try:
             await self.pool.execute("""
                 CREATE TABLE IF NOT EXISTS computers (
@@ -54,29 +56,27 @@ class Database:
 
     async def insert_computer(self, name, update_status, reboot_required):
         try:
-            # Check if the computer already exists
-            computer = await self.pool.fetchrow(
-                'SELECT * FROM computers WHERE name = $1', name
+            # Try to update the record
+            result = await self.pool.execute(
+                """
+                UPDATE computers
+                SET
+                    update_status = $2,
+                    reboot_required = $3,
+                    update_count = computers.update_count + 1
+                WHERE name = $1
+                """,
+                name, update_status, reboot_required
             )
-            if computer is None:
-                # If the computer doesn't exist, insert a new record
+
+            # If no record was updated, insert a new one
+            if result == 'UPDATE 0':
                 await self.pool.execute(
                     """
                     INSERT INTO computers
-                    (name, update_status, reboot_required, update_count)
-                    VALUES ($1, $2, $3, 1)
-                    """,
-                    name, update_status, reboot_required
-                )
-            else:
-                # If the computer exists, update the record and increment
-                # the update count
-                await self.pool.execute(
-                    """
-                    UPDATE computers
-                    SET update_status = $2, reboot_required = $3,
-                    update_count = update_count + 1
-                    WHERE name = $1
+                        (name, update_status, reboot_required, update_count)
+                    VALUES
+                        ($1, $2, $3, 1)
                     """,
                     name, update_status, reboot_required
                 )
