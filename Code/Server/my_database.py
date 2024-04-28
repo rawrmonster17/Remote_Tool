@@ -37,7 +37,6 @@ class Database:
         if self.pool is None:
             logger.error("Cannot create table: No database connection")
             return
-
         try:
             await self.pool.execute("""
                 CREATE TABLE IF NOT EXISTS computers (
@@ -54,32 +53,21 @@ class Database:
 
     async def insert_computer(self, name, update_status, reboot_required):
         try:
-            # Check if the computer already exists
-            computer = await self.pool.fetchrow(
-                'SELECT * FROM computers WHERE name = $1', name
-            )
-            if computer is None:
-                # If the computer doesn't exist, insert a new record
-                await self.pool.execute(
-                    """
-                    INSERT INTO computers
+            await self.pool.execute(
+                """
+                INSERT INTO computers
                     (name, update_status, reboot_required, update_count)
-                    VALUES ($1, $2, $3, 1)
-                    """,
-                    name, update_status, reboot_required
-                )
-            else:
-                # If the computer exists, update the record and increment
-                # the update count
-                await self.pool.execute(
-                    """
-                    UPDATE computers
-                    SET update_status = $2, reboot_required = $3,
-                    update_count = update_count + 1
-                    WHERE name = $1
-                    """,
-                    name, update_status, reboot_required
-                )
+                VALUES
+                    ($1, $2, $3, 1)
+                ON CONFLICT (name)
+                DO UPDATE
+                SET
+                    update_status = $2,
+                    reboot_required = $3,
+                    update_count = computers.update_count + 1
+                """,
+                name, update_status, reboot_required
+            )
         except Exception as e:
             error_message = f"Failed to insert or update computer: {str(e)}"
             logger.error(error_message)
