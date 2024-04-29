@@ -1,6 +1,7 @@
 import os
 import logging
 import time
+import uuid
 from my_database import Database
 from fastapi import FastAPI
 
@@ -50,11 +51,30 @@ async def get_computers():
 
 
 @app.post("/add-computer")
-async def add_computer(name: str, update_status: bool, reboot_required: bool):
+async def add_computer(data: dict):
     try:
-        await db.insert_computer(name, update_status, reboot_required)
+        # Extract data from JSON payload
+        comp_uuid = data.get("comp_uuid")
+        name = data.get("name")
+        update_status = data.get("update_status")
+        reboot_required = data.get("reboot_required")
+
+        # Validate and convert comp_uuid to UUID
+        try:
+            comp_uuid = uuid.UUID(comp_uuid)
+        except ValueError:
+            return {"error": "comp_uuid is not a valid UUID"}
+
+        # Your existing code for inserting the computer
+        await db.insert_computer(comp_uuid,
+                                 name,
+                                 update_status,
+                                 reboot_required)
+
+        # Return success message
         return {"message": "Computer added successfully"}
     except Exception as e:
+        # Log any unexpected errors
         logger.error(str(e))
         return {"error": "An error occurred while adding the computer"}
 
