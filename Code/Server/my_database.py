@@ -2,7 +2,6 @@ import logging
 import asyncpg
 import os
 import asyncio
-import uuid
 
 
 BASE_FOLDER = os.path.dirname(os.path.abspath(__file__))

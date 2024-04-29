@@ -4,7 +4,7 @@ import platform
 import requests
 import subprocess
 import uuid
-import json
+
 
 SERVER_URL = "http://192.168.1.201:8000"  # Replace with your server URL
 uuid_based_on_host_id = uuid.uuid1()
@@ -24,7 +24,9 @@ def check_updates():
             print(f"Unsupported distro: {distro_name}")
             return False
 
-        result = subprocess.run(update_command.split(), capture_output=True, text=True)
+        result = subprocess.run(update_command.split(),
+                                capture_output=True,
+                                text=True)
         return len(result.stdout.strip()) > 0
     except Exception as e:
         print(f"An error occurred while checking updates: {e}")
@@ -46,7 +48,7 @@ def report_to_server(comp_uuid, name, update_status, reboot_required):
         name = str(name)
         update_status = bool(update_status)
         reboot_required = bool(reboot_required)
-        
+
         # Prepare the payload as JSON
         payload = {
             "comp_uuid": comp_uuid,
@@ -54,10 +56,10 @@ def report_to_server(comp_uuid, name, update_status, reboot_required):
             "update_status": update_status,
             "reboot_required": reboot_required
         }
-        
+
         # Send POST request with JSON payload
         response = requests.post(f"{SERVER_URL}/add-computer", json=payload)
-        
+
         # Check response status code
         if response.status_code != 200:
             print(f"Unexpected status code: {response.status_code}")
