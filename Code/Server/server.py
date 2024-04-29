@@ -84,7 +84,7 @@ async def clear_computers():
     # This is a dangerous operation, so we should add some
     # kind of authentication
     try:
-        await db.conn.execute("DELETE FROM computers")
+        await db.pool.execute("DELETE FROM computers")
         return {"message": "Computers cleared successfully"}
     except Exception as e:
         logger.error(f"Failed to clear computers: {str(e)}")
