@@ -2,6 +2,7 @@ import logging
 import asyncpg
 import os
 import asyncio
+import uuid
 
 
 BASE_FOLDER = os.path.dirname(os.path.abspath(__file__))
@@ -44,6 +45,7 @@ class Database:
             await self.pool.execute("""
                 CREATE TABLE IF NOT EXISTS computers (
                     id SERIAL PRIMARY KEY,
+                    comp_uuid UUID,
                     name VARCHAR(255),
                     update_status BOOLEAN,
                     reboot_required BOOLEAN,
@@ -54,19 +56,24 @@ class Database:
         except Exception as e:
             logger.error(f"Failed to create table: {str(e)}")
 
-    async def insert_computer(self, name, update_status, reboot_required):
+    async def insert_computer(self,
+                              comp_uuid,
+                              name,
+                              update_status,
+                              reboot_required):
         try:
             # Try to update the record
             result = await self.pool.execute(
                 """
                 UPDATE computers
                 SET
-                    update_status = $2,
-                    reboot_required = $3,
+                    name = $2,
+                    update_status = $3,
+                    reboot_required = $4,
                     update_count = computers.update_count + 1
-                WHERE name = $1
+                WHERE comp_uuid = $1
                 """,
-                name, update_status, reboot_required
+                comp_uuid, name, update_status, reboot_required
             )
 
             # If no record was updated, insert a new one
@@ -74,11 +81,17 @@ class Database:
                 await self.pool.execute(
                     """
                     INSERT INTO computers
-                        (name, update_status, reboot_required, update_count)
+                        (
+                            comp_uuid,
+                            name,
+                            update_status,
+                            reboot_required,
+                            update_count
+                        )
                     VALUES
-                        ($1, $2, $3, 1)
+                        ($1, $2, $3, $4, 1)
                     """,
-                    name, update_status, reboot_required
+                    comp_uuid, name, update_status, reboot_required
                 )
         except Exception as e:
             error_message = f"Failed to insert or update computer: {str(e)}"
