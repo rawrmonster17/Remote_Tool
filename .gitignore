@@ -14,3 +14,5 @@ venv/
 Code/Server/error.log
 Code/Server/database.log
 Code/client/server.crt
+
+docker/Backup/*.sql

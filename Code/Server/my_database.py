@@ -2,6 +2,7 @@ import logging
 import asyncpg
 import os
 import asyncio
+import time
 
 
 BASE_FOLDER = os.path.dirname(os.path.abspath(__file__))
@@ -36,6 +37,16 @@ class Database:
         if self.pool is not None:
             await self.pool.close()
 
+    async def ensure_connection(self):
+        start_time = time.time()
+        while True:
+            if self.pool is not None and not self.pool._closed:
+                return
+            if time.time() - start_time > 120:  # 2 minutes
+                logger.error("Failed to connect to database: Timeout")
+            await self.connect()
+            await asyncio.sleep(1)
+
     async def create_table(self):
         if self.pool is None:
             logger.error("Cannot create table: No database connection")
@@ -61,6 +72,7 @@ class Database:
                               update_status,
                               reboot_required):
         try:
+            await self.ensure_connection()
             # Try to update the record
             result = await self.pool.execute(
                 """

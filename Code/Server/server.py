@@ -90,9 +90,11 @@ async def clear_computers():
         logger.error(f"Failed to clear computers: {str(e)}")
         return {"error": "An error occurred while clearing computers"}
 
+
 if __name__ == "__main__":
     try:
         if __name__ == "__main__":
+            # Start the server
             os.system("uvicorn server:app --host 0.0.0.0 --port 8000")
     except Exception as e:
         print(f"An error occurred: {e}")
